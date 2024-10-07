@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c04f4f;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/697/269/large_2x/desktop-with-financial-set-icons-vector.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2554.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .balance {
+    margin-bottom: 20px;
+  }
+  
+  .balance h2 {
+    margin: 0;
+  }
+  
+  .income-expense {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .income-expense div {
+    width: 48%;
+  }
+  
+  .transaction-form {
+    margin-bottom: 20px;
+  }
+  
+  .transaction-form input, .transaction-form select, .transaction-form button {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background-color: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
